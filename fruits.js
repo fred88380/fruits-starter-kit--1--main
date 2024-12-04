@@ -35,9 +35,9 @@ fruits.forEach(fruit => {
         imageFruit.style.backgroundImage =  'url(all-fruits.jpg)'; 
         }
     });
-    let div =document.getElementById ('imageFruit');
-    div.style.height= '100vh';
-    div.style.width = '100vh';
+    
+    imageFruit.style.height= '100vh';
+    imageFruit.style.width = '100vh';
     button.style.height= '20%';
     button.style.width='100%';
 });
