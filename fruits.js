@@ -21,11 +21,13 @@ fruits.forEach(fruit => {
         imageFruit.style.backgroundImage = 'url(' + fruit.image + ')';
 
     });
+    /*changement de l'image du fruit en passant la souris sur le bouton */
     button.addEventListener('mouseover', ()=>{
         if (activeFruit!==fruit){
         imageFruit.style.backgroundImage = 'url(' +fruit.image +')';
         }
     });
+    /*mouvement de la souris*/
     button.addEventListener('mouseout', ()=>{
         if (activeFruit) {
             imageFruit.style.backgroundImage = 'url(' + activeFruit.image + ')';
